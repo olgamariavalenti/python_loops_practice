@@ -1,0 +1,13 @@
+# Create a list of friends
+people = [('Alice', 'she', 25),('Claudio', 'he', 25),('Silvano', 'he', 30)]
+
+# Create a function friends, gender and age
+def friends (name,gender, age):
+    print(f"My friend is {name} and {gender} is {age} years old!")
+
+# Ask user how many friends he has
+num_friends = int(input("How many friends do you have?"))
+
+#Print my friends depending on how many I say I have
+for i in range(num_friends):
+    friends(people[i][0], people[i][1], people[i][2])
