@@ -1,0 +1,15 @@
+# Creste a list of shopping items
+shopping_list = []
+
+# Create an input question for the user
+question = int(input("How many items would you like to add to your cart?"))
+ 
+# Create a loop to collect item names
+for i in range(question):
+    item = input(f'Item number {i+1}:')
+    shopping_list.append(item)
+
+#Create a loop to go over each item and print them in a list form
+print("Your shopping list:")
+for item in shopping_list:
+     print(" - ", item)
