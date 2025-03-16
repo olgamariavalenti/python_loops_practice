@@ -12,5 +12,6 @@ The my_shopping_list.py file is a Python program that allows users to create a s
 [View the 'shopping_list' file here](https://github.com/olgamariavalenti/training_loops/tree/main)
 
 ## Shopping_List_2 🍩
-This Python script allows users to create a to-do list by entering tasks one by one until they type "done" to finish. 
+This Python script allows users to create a to-do list by entering tasks one by one until they type "done" to finish.
+
 [View the 'shopping_list' file here](https://github.com/olgamariavalenti/training_loops/blob/main/shopping_list_2)
